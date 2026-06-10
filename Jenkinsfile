@@ -10,9 +10,9 @@ pipeline {
                 sh 'java -version'
                 echo "Maven version:"
                 sh 'mvn -version'
-                echo "Maven build started at: $(date)"
+                echo "Maven build started at: '$(date)'"
                 sh 'mvn -B clean package'
-                echo "Maven build completed at: $(date)"
+                echo "Maven build completed at: '$(date)'"
             }
         }
     }

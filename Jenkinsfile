@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'app-builder'
+        label 'agent-app-builder'
     }
 
     stages {

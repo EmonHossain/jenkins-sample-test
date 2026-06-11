@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'agent-app-builder'
+        label 'jenkins-build-agent'
     }
 
     stages {

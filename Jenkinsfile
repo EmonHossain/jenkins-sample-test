@@ -4,8 +4,8 @@ pipeline {
     }
 
     tools {
-            maven 'maven-3.9.16'
-        }
+        maven 'maven-3.9.16'
+    }
 
     stages {
         stage('Build') {

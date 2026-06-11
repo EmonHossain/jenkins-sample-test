@@ -1,6 +1,9 @@
 pipeline {
     agent {
         label 'jenkins-build-agent'
+        tools {
+            maven 'Maven 3.9.16'
+        }
     }
 
     stages {
